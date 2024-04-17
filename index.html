@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+           
+  <title>LaEscondidaFarmacia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style>
+    .container {
+      margin-bottom: 200px; /* Es el obj css del contenedor el cual indica el margen de distancia que hay entre un contenedor y otro.*/
+    }
+
+    .carousel-inner img {
+    width: 50%;
+    height: 10%;   /* Es el obj css del carrusel. Podemos modificar las medidas de este desde aca.*/
+  }
+
+    .corner-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px;
+        z-index: 999;
+        width: 400px; 
+        height: auto; 
+}
+
+.text-celeste {
+    color: skyblue; /* Color celeste para las letras.*/
+}
+
+.text-verde {
+    color: green; /*Color verde para las letras. */
+}
+
+.footer {
+      background-color: grey;
+      color: white;
+      padding: 20px 0;
+      text-align: center;  /* css para el footer*/
+    }
+
+
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body> 
+ 
+    <img src="LogoFarmacia.jpg" alt="LaEscondida" class="corner-image">    <!-- imagen logo la escondida.-->
+
+<div class="container">   <!-- Menu-->
+  <h2>La Escondida</h2>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="Historia.html">Historia</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Recetas.html">Recetas Magistrales</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Ubicacion.html">Ubicacion</a>
+    </li>
+  </ul>
+</div>    
+   
+
+<div class="container">  <!-- Empiezan contenedores de info -->
+  <h2 class="text-center text-celeste">Porque nosotros?</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title text-center"></h5>
+      <p class="card-text text-center text-verde">En Farmacia La Escondida, nos destacamos por ofrecer una combinación única: bajos precios y la mejor atención. Nuestro compromiso es brindarte productos de calidad a precios accesibles, asegurando que cada visita sea una experiencia satisfactoria. Nuestro equipo de profesionales está siempre dispuesto a atenderte con amabilidad y conocimiento, garantizando que recibas la asistencia personalizada que mereces. En Farmacia La Escondida, tu bienestar es nuestra prioridad, y nos esforzamos por superar tus expectativas en cada interacción. ¡Confía en nosotros para cuidar de tu salud y tu bolsillo con igual dedicación y excelencia!
+      </p>
+      <div class="text-center">
+        <div class="text-center">
+            <img src="PorqueNosotros.jpg" class="img-fluid" alt="Nosotros">          
+        </div>        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contenedor de catalogo en index, cree variable a para que la imagen Catalogo.jpg sea clickeable y redirija a la pagina del catalogo. -->
+<div class="container">
+    <h2 class="text-center text-celeste">Catalogo</h2>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text text-center text-verde">Haz click en la imagen para ver nuestro catalogo!</p>
+        <div class="text-center">
+          <a href="Catalogo.html">
+            <img src="Catalogo.webp" class="img-fluid " alt="Catalogo">
+          </a>           
+        </div>       
+      </div>     
+    </div>
+  </div>
+
+
+  <div id="demo" class="carousel slide" data-ride="carousel">  <!-- Carrusel con productos en descuento-->
+
+    <!-- Indicadores -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      <li data-target="#demo" data-slide-to="5"></li>
+    </ul>
+    
+    <!-- Contenido del carrusel -->
+    <div class="carousel-inner text-center">
+      <h2 class="text-center mt-3 text-celeste">Articulos con 45% de Descuento!</h2>
+  
+      <!-- Primera imagen -->
+      <div class="carousel-item active">
+        <a class="text-center">
+          <img src="Aciclovir.webp" alt="Aciclovir" width="600" height="300"> 
+        </a>
+      </div>
+  
+      <!-- Segunda imagen -->
+      <div class="carousel-item">
+        <a class="text-center">
+          <img src="Ciprofloxacino.webp" alt="Ciprofloxacino" width="600" height="300">
+        </a>
+      </div>
+  
+      <!-- Tercera imagen -->
+      <div class="carousel-item">
+        <a class="text-center">
+          <img src="Clonazepam.jpg" alt="Pastor Aleman" width="600" height="300"> 
+        </a>
+      </div>
+  
+      <!-- Cuarta imagen -->
+      <div class="carousel-item">
+        <a class="text-center">
+          <img src="Domperidona.webp" alt="Domperidona" width="600" height="300"> 
+        </a>
+      </div>
+  
+      <!-- Quinta imagen -->
+      <div class="carousel-item">
+        <a class="text-center">
+          <img src="Jarabe.webp" alt="Jarabe" width="600" height="300"> 
+        </a>
+      </div>
+  
+      <!-- Sexta imagen -->
+      <div class="carousel-item">
+        <a class="text-center">
+          <img src="Loperamida.webp" alt="Loperamida" width="600" height="300"> 
+        </a>
+      </div>
+    </div>
+  
+    <!-- Controladores para mover a la izquierda y derecha. -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+
+
+  <footer class="footer">  <!-- Footer de la pagina -->
+    <div class="container">
+      <span>&copy; 2024 Farmacia La Escondida</span>
+    </div>
+  </footer>
+
+
+
+
+</body>
+</html>

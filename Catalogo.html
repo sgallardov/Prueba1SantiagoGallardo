@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatalogoWeb</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+    .container {
+      margin-bottom: 200px;
+    }
+
+    .text-celeste {
+    color: skyblue;
+}
+
+.text-verde {
+    color: green;
+}
+
+.boton-verde {
+    background-color: green;
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+.footer {
+      background-color: grey;
+      color: white;
+      padding: 20px 0;
+      text-align: center;  /* css para el footer*/
+    }
+
+.btn-esquina { /* Posiciona la imagen en la esquina derechad la pagina.*/
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+
+.btn-esquina img {  /* Permite poner imagen y los parametros de esta*/
+        width: 20px; 
+        margin-right: 5px; 
+    }
+
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <a href="index.html" class="btn btn-primary boton-verde">Volver a la Página Principal</a> <!-- Boton para avolver a la pagina principal -->
+
+    <button class="btn btn-primary btn-esquina">  <!-- Boton con la clase que lo posiciona en la esquina y le permite poner una imagen -->
+        <img src="Carrito.png" alt="Carrito" />Carrito</button>
+
+
+    <div class="container">
+        <h2 class="text-center"></h2>
+        <div class="card">
+            <div class="card-body"> 
+                <h5 class="card-title text-center text-celeste">Paracetamol</h5>
+                <p class="card-text text-center text-verde">
+                    El paracetamol es un medicamento comúnmente utilizado para aliviar el dolor y reducir la fiebre. También se conoce como acetaminofén. Actúa bloqueando la producción de ciertas sustancias en el cerebro que causan dolor y fiebre. Es seguro y efectivo cuando se usa según las indicaciones, pero debe tomarse con precaución para evitar sobredosis.
+                </p>
+                <div class="text-center">
+                    <div class="text-center"> 
+                        <a> 
+                            <img src="Paracetamol.webp" class="img-fluid w-50" alt="Paracetamol">
+                        </a>
+                    </div>
+                    <p class="text-center">Precio: $3.990</p> 
+                    <button class="btn btn-primary">Agregar</button> <!-- Boton agregar a carrito-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center"></h2>
+        <div class="card">
+            <div class="card-body"> 
+                <h5 class="card-title text-center text-celeste">Clonazepam</h5>
+                <p class="card-text text-center text-verde">
+                   
+El clonazepam es un medicamento perteneciente a la clase de las benzodiazepinas, conocido por su efecto ansiolítico, anticonvulsivo, y relajante muscular. Se utiliza principalmente en el tratamiento de trastornos de ansiedad, trastornos del sueño, y convulsiones epilépticas. Funciona actuando sobre ciertos neurotransmisores en el cerebro, lo que ayuda a reducir la actividad neuronal y produce un efecto calmante en el sistema nervioso central. Sin embargo, su uso debe ser cuidadosamente supervisado debido al riesgo de dependencia, tolerancia y efectos secundarios como somnolencia, mareos y deterioro cognitivo. Es importante seguir las indicaciones médicas y no exceder la dosis prescrita.
+                </p>
+                <div class="text-center">
+                    <div class="text-center"> 
+                        <a> 
+                            <img src="Clonazepam.jpg" class="img-fluid w-50" alt="Clonazepam">
+                        </a>
+                    </div>
+                    <p class="text-center">Precio: $2.990</p> 
+                    <button class="btn btn-primary">Agregar</button>  <!-- Boton agregar a carrito-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2 class="text-center"></h2>
+        <div class="card">
+            <div class="card-body"> 
+                <h5 class="card-title text-center text-celeste">Aciclovir</h5>
+                <p class="card-text text-center text-verde">
+                 
+El aciclovir es un medicamento antiviral utilizado principalmente en el tratamiento de infecciones causadas por el virus del herpes, incluyendo el herpes labial (herpes simplex), herpes genital, herpes zóster (culebrilla) y varicela. Funciona inhibiendo la replicación viral al interferir con la síntesis del ADN viral, lo que ayuda a reducir la gravedad y la duración de los brotes virales. Se administra comúnmente en forma de comprimidos, crema tópica o solución intravenosa, dependiendo del tipo y la gravedad de la infección. Es importante seguir las indicaciones médicas y completar el curso de tratamiento según lo prescrito para obtener los mejores resultados y evitar la resistencia viral. Algunos efectos secundarios comunes incluyen náuseas, dolor de cabeza y erupciones cutánea
+                </p>
+                <div class="text-center">
+                    <div class="text-center"> 
+                        <a> 
+                            <img src="Aciclovir.webp" class="img-fluid w-50" alt="Aciclovir">
+                        </a>
+                    </div>
+                    <p class="text-center">Precio: $6.990</p> 
+                    <button class="btn btn-primary">Agregar</button>  <!-- Boton agregar a carrito-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2 class="text-center"></h2>
+        <div class="card">
+            <div class="card-body"> 
+                <h5 class="card-title text-center text-celeste">Ciprofloxacino</h5>
+                <p class="card-text text-center text-verde">
+                    Ciprofloxacino es un antibiótico ampliamente utilizado para tratar infecciones bacterianas. Funciona inhibiendo la replicación del ADN bacteriano. Se usa comúnmente para infecciones del tracto urinario, respiratorio, piel y tejidos blandos, así como del tracto gastrointestinal. Es importante seguir las indicaciones médicas y completar el curso de tratamiento para prevenir la resistencia bacteriana. Algunos efectos secundarios pueden incluir náuseas, diarrea y mareos.
+                </p>
+                <div class="text-center">
+                    <div class="text-center"> 
+                        <a> 
+                            <img src="Ciprofloxacino.webp" class="img-fluid w-50" alt="Ciprofloxacino">
+                        </a>
+                    </div>
+                    <p class="text-center">Precio: $7.990</p> 
+                    <button class="btn btn-primary">Agregar</button>  <!-- Boton agregar a carrito-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center"></h2>
+        <div class="card">
+            <div class="card-body"> 
+                <h5 class="card-title text-center text-celeste">Loperamida</h5>
+                <p class="card-text text-center text-verde">
+                
+La loperamida es un medicamento antidiarreico utilizado para tratar la diarrea aguda y crónica. Funciona disminuyendo la motilidad intestinal y aumentando la absorción de agua y electrolitos en el intestino, lo que ayuda a reducir la frecuencia y la consistencia de las deposiciones. Se administra en forma de tabletas o solución oral y se utiliza para tratar la diarrea causada por infecciones, alimentos o agua contaminados, o condiciones médicas como el síndrome del intestino irritable. Es importante seguir las indicaciones médicas y no exceder la dosis recomendada para evitar efectos secundarios como estreñimiento, náuseas y distensión abdominal. En casos de diarrea persistente o grave, se debe buscar atención médica adecuada.
+                </p>
+                <div class="text-center">
+                    <div class="text-center"> 
+                        <a> 
+                            <img src="Loperamida.webp" class="img-fluid w-50" alt="Loperamida">
+                        </a>
+                    </div>
+                    <p class="text-center">Precio: $5.780</p>
+                    <button class="btn btn-primary">Agregar</button>  <!-- Boton agregar a carrito-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center"></h2>
+        <div class="card">
+            <div class="card-body"> 
+                <h5 class="card-title text-center text-celeste">Viadil</h5>
+                <p class="card-text text-center text-verde">
+                    
+    Viadil es un medicamento que combina dos principios activos: la difenidol, un antihistamínico con propiedades antieméticas (para prevenir náuseas y vómitos), y la papaverina, un relajante muscular. Se utiliza principalmente para aliviar los síntomas asociados con el mareo, vértigo, y náuseas. Viadil actúa bloqueando los receptores de histamina en el cerebro y relajando los músculos del tracto gastrointestinal y del sistema circulatorio, lo que ayuda a reducir las sensaciones de mareo y las molestias relacionadas. Es importante seguir las indicaciones del médico o las instrucciones del envase para evitar efectos secundarios y complicaciones. Algunos efectos secundarios pueden incluir somnolencia, sequedad bucal y visión borrosa. Si experimentas efectos adversos graves o persistentes, debes buscar atención médica.
+                </p>
+                <div class="text-center">
+                    <div class="text-center"> 
+                        <a> 
+                            <img src="Viadil.jpg" class="img-fluid w-50" alt="Viadil">
+                        </a>
+                    </div>
+                    <p class="text-center">Precio: $3.990</p> 
+                    <button class="btn btn-primary">Agregar</button>   <!-- Boton agregar a carrito-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+      <footer class="footer">   <!-- Footer -->
+        <div class="container">
+          <span>&copy; 2024 Farmacia La Escondida</span>
+        </div>
+      </footer>
+
+
+</body>
+</html>
